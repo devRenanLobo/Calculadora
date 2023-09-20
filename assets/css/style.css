@@ -19,22 +19,56 @@ body{
 }
 
 .container {
-    max-width: 250px;
+    max-width: 400px;
     margin: 50px auto;
     background: rgb(255, 248, 248);
     padding: 20px;
-    border-radius: 10px;  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 
 }
 
-input {
+.display {
     text-align: right;
-    width: 200px;
+    width: 100%;
     height: 40px;
     font-size: 30px;
-    
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 192, 244);
 }
 
 .calculator {
-    width: 200px;
+    width: 350px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 192, 244);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 137, 255);
+    transition: 0.2s;
+}
+
+.button:active {
+    background-color: rgb(216, 133, 255);
+}
+
+.button-clear {
+    background-color: rgb(255, 141, 141);
+}
+
+.button-clear:hover {
+    background-color: rgb(255, 92, 92);
 }
