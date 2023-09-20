@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color: rgb(109, 18, 117);
+    --primary-color-darker: rgb(82, 13, 84);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 250px;
+    margin: 50px auto;
+    background: rgb(255, 248, 248);
+    padding: 20px;
+    border-radius: 10px;  
+
+}
+
+input {
+    text-align: right;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    
+}
+
+.calculator {
+    width: 200px;
+}
